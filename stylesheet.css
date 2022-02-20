@@ -1,6 +1,69 @@
 body {
+  display: flex;
+  flex-direction: column;
   }
 
 .header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  list-style-type: none;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+.top{
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.second {
+  background-color: #1f2937; 
+  display: flex;
+  flex-direction: row;
+}
+.subheading{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
 
 }
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer{
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+    }
