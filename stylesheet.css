@@ -36,25 +36,41 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 
 
-
-.second {
-  background-color: #1f2937; 
-  display: flex;
-  flex-direction: row;
-}
-.subheading{
+.subheading {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  
+
+}
+
+
+.image {
+  width:400px; height: 500px;
+  display: flex;
+  flex-direction:row;
+  
 }
 
 .toptext {
   font-size: 18px;
   color: #e5e7eb;
+  background-color: #1f2937;
+  text-align: left;
+  
+  
 }
+
 
 button {
     padding: 8px 16px;
@@ -64,7 +80,11 @@ button {
     color: white;
   }
 
-
+  .second {
+    background-color: #1f2937; 
+    display: flex;
+    flex-direction: row;
+  }
 
 
 .middle {
