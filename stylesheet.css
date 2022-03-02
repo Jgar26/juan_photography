@@ -133,6 +133,7 @@ padding-bottom: 25px;
 .author {
   display:flex;
   flex-direction: row-reverse;
+  font-size: 35px;
   padding-right: 100px;
   padding-bottom: 50px;
 }
